@@ -1,0 +1,2 @@
+import{t as e}from"./rolldown-runtime.D32smSb_.mjs";function t(e,t){return{description:`You are cordially invited to the wedding celebration of Ayan and Debali. Join us in celebrating this joyous occasion with the Adhikary and Roy families.`,favicon:`https://framerusercontent.com/assets/VRr5oPbK8EC2e8xlsQcVIsS47c.png`,robots:`max-image-preview:large`,socialImage:`https://framerusercontent.com/assets/7LPUQldg1w5B1Zrz0pCfh0AeQw.png`,title:`Ayan & Debali Wedding Invitation`}}var n=e((()=>{}));export{t as n,n as t};
+//# sourceMappingURL=siteMetadata.D3tzqGpL.mjs.map
