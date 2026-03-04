@@ -1051,6 +1051,21 @@ px; --framer-line-height: 100%; --framer-text-alignment: center; --framer-text-c
     [data-framer-name="Staff"] {
       display: none !important;
     }
+
+    /* Fix mobile: Framer sets pointer-events:none on content sections for desktop phone-mockup overlay,
+       but this kills all touch interactivity on actual mobile devices */
+    @media (max-width: 809.98px) {
+      .framer-OAC31 .framer-1fokm58,
+      .framer-OAC31 .framer-1dw7z3p,
+      .framer-OAC31 .framer-1j9tghe,
+      .framer-OAC31 .framer-q17vbr,
+      .framer-OAC31 .framer-1lew6c4,
+      .framer-OAC31 .framer-1dnsgee,
+      .framer-OAC31 .framer-yu00m3,
+      .framer-OAC31 .framer-1ciffqa {
+        pointer-events: auto !important;
+      }
+    }
   </style>
   <script>
       const TARGET_IMAGE_KEY = "3vpFOuN5tHb2JuYqzoPGPaRcA";
